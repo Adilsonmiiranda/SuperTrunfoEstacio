@@ -19,7 +19,7 @@ void preencherCarta(struct CartaSuperTrunfo *carta, const char *nomeCarta) {
     printf("\n===== Preenchendo %s =====\n", nomeCarta);
 
     char entrada[10];
-    printf("Escolha uma letra entre 'A' e 'H' para representar um dos oito estados: ");
+    printf("Escolha uma letra entre 'A' e 'H' para representar um dos estados: ");
     scanf(" %c", entrada);
     carta->estado = entrada[0];
     while ((getchar()) != '\n');
